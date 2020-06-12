@@ -1,0 +1,504 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ibsen 1.0.3\n"
+"POT-Creation-Date: 2020-05-28 09:07+0100\n"
+"PO-Revision-Date: 2019-12-11 10:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: UXL Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr ""
+
+#: 404.php:15
+msgid "Browse our pages."
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:62
+msgid "Previous"
+msgstr ""
+
+#: comments.php:63
+msgid "Next"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content-front-page.php:16 content-no-title.php:16 content-page.php:20
+#: content-search.php:53 content-single-no-title.php:18 content-single.php:36
+#: content.php:53
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: content-front-page.php:27 content-no-title.php:27 content-page.php:31
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s: link to create new post
+#: content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-related.php:27
+msgid "Related"
+msgstr ""
+
+#: content-related.php:65 content-search.php:42 content.php:42
+msgid "No Title"
+msgstr ""
+
+#: content-related.php:82 content-search.php:57 content.php:57
+msgid "Continue Reading"
+msgstr ""
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:36
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:123
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:132
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:141
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:143
+msgid "Requires WooCommerce plugin."
+msgstr ""
+
+#: functions.php:151
+msgid "Shop Filters"
+msgstr ""
+
+#: functions.php:153
+msgid ""
+"Horizontal widget area for product archives. Requires WooCommerce plugin."
+msgstr ""
+
+#: functions.php:161
+msgid "Top Bar"
+msgstr ""
+
+#: functions.php:163
+msgid "Add your own content above the header."
+msgstr ""
+
+#: functions.php:171
+msgid "Top Footer"
+msgstr ""
+
+#: functions.php:172
+msgid "Full width area above the footer columns."
+msgstr ""
+
+#: functions.php:182
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:192
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:202
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:228 functions.php:297
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:259 functions.php:328
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:385
+msgid "Ibsen - Accent color"
+msgstr ""
+
+#: functions.php:390
+msgid "Ibsen - Very dark blue"
+msgstr ""
+
+#: functions.php:395
+msgid "Ibsen - Light grey"
+msgstr ""
+
+#: functions.php:400
+msgid "Pale pink"
+msgstr ""
+
+#: functions.php:405
+msgid "Vivid red"
+msgstr ""
+
+#: functions.php:410
+msgid "Luminous vivid orange"
+msgstr ""
+
+#: functions.php:415
+msgid "Luminous vivid amber"
+msgstr ""
+
+#: functions.php:420
+msgid "Light green cyan"
+msgstr ""
+
+#: functions.php:425
+msgid "Vivid green cyan"
+msgstr ""
+
+#: functions.php:430
+msgid "Pale cyan blue"
+msgstr ""
+
+#: functions.php:435
+msgid "Vivid cyan blue"
+msgstr ""
+
+#: functions.php:440
+msgid "Vivid purple"
+msgstr ""
+
+#: functions.php:445
+msgid "Very light gray"
+msgstr ""
+
+#: functions.php:450
+msgid "Cyan bluish gray"
+msgstr ""
+
+#: functions.php:455
+msgid "Very dark gray"
+msgstr ""
+
+#: functions/customizer-controls.php:17
+msgid "Accent Color"
+msgstr ""
+
+#: functions/customizer-controls.php:25
+msgid "Layout Options"
+msgstr ""
+
+#: functions/customizer-controls.php:36
+msgid "Container Width"
+msgstr ""
+
+#: functions/customizer-controls.php:52
+msgid "Disable Search Form in Header"
+msgstr ""
+
+#: functions/customizer.php:32
+msgid ""
+"Note: header image is not displayed on Transparent Header page template."
+msgstr ""
+
+#: functions/customizer.php:49
+msgid "Header Style"
+msgstr ""
+
+#: functions/customizer.php:50
+msgid ""
+"Note: only applies to *Default* page template, not to *Transparent Header* "
+"page template."
+msgstr ""
+
+#: functions/customizer.php:54
+msgid "Dark"
+msgstr ""
+
+#: functions/customizer.php:55
+msgid "Light"
+msgstr ""
+
+#: functions/customizer.php:74
+msgid "Blog - Grid Layout"
+msgstr ""
+
+#: functions/customizer.php:97
+msgid "Sidebar Position"
+msgstr ""
+
+#: functions/customizer.php:101
+msgid "Left"
+msgstr ""
+
+#: functions/customizer.php:102
+msgid "Right"
+msgstr ""
+
+#: functions/customizer.php:119
+msgid "Enable Sticky Footer"
+msgstr ""
+
+#: functions/customizer.php:128
+msgid "Typography & Fonts"
+msgstr ""
+
+#: functions/customizer.php:140
+msgid "Site Title"
+msgstr ""
+
+#: functions/customizer.php:153
+msgid "Navigation"
+msgstr ""
+
+#: functions/customizer.php:166
+msgid "Content"
+msgstr ""
+
+#: functions/customizer.php:179
+msgid "Headings"
+msgstr ""
+
+#: functions/customizer.php:198
+msgid "Base Font Size"
+msgstr ""
+
+#: functions/customizer.php:211 functions/customizer.php:222
+#: functions/customizer.php:360
+msgid "Go Pro"
+msgstr ""
+
+#: functions/customizer.php:213 functions/theme-help.php:95
+msgid ""
+"Upgrade to Ibsen Pro for even more cool features and customization options."
+msgstr ""
+
+#: functions/customizer.php:343
+msgid "More options available"
+msgstr ""
+
+#: functions/customizer.php:352 functions/theme-help.php:65
+msgid "Documentation"
+msgstr ""
+
+#: functions/extras.php:57
+msgid "Create your Primary Menu here"
+msgstr ""
+
+#: functions/extras.php:188
+msgid "Close Menu"
+msgstr ""
+
+#: functions/extras.php:228
+msgid "Close Search"
+msgstr ""
+
+#: functions/extras.php:321
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions/extras.php:321
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#. translators: %2$s link to theme page, %1$s theme author
+#: functions/extras.php:324
+#, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:52 functions/template-tags.php:85
+msgid ", "
+msgstr ""
+
+#. translators: %2s: number of posts by this author.
+#: functions/template-tags.php:75
+#, php-format
+msgid "%2s posts"
+msgstr ""
+
+#. translators: %s: post title
+#: functions/template-tags.php:105
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: functions/template-tags.php:122
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: functions/theme-help.php:20
+#, php-format
+msgid "%s Help"
+msgstr ""
+
+#. translators: %s: theme name.
+#: functions/theme-help.php:42
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: functions/theme-help.php:50
+msgid "Options"
+msgstr ""
+
+#. translators: %s: theme name.
+#: functions/theme-help.php:55
+#, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr ""
+
+#: functions/theme-help.php:59
+msgid "Customize"
+msgstr ""
+
+#: functions/theme-help.php:68
+msgid ""
+"Do you need help to setup and customize this theme? Check out the theme "
+"documentation."
+msgstr ""
+
+#: functions/theme-help.php:72
+msgid "View Documentation"
+msgstr ""
+
+#: functions/theme-help.php:78
+msgid "Support"
+msgstr ""
+
+#: functions/theme-help.php:81
+msgid "Any questions?"
+msgstr ""
+
+#: functions/theme-help.php:85
+msgid "Get Support"
+msgstr ""
+
+#: functions/theme-help.php:92
+msgid "Upgrade"
+msgstr ""
+
+#: functions/theme-help.php:99
+msgid "GO PRO"
+msgstr ""
+
+#: functions/theme-help.php:113
+msgid "Theme Details"
+msgstr ""
+
+#. translators: %1$s: theme name, %2$s: theme author, %3$s: link to theme review page.
+#: functions/theme-help.php:129
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+
+#: functions/theme-help.php:129
+msgid "rate it"
+msgstr ""
+
+#: header-transparent.php:24 header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:30
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-shop-filters.php:20
+msgid "Product Filters"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ibsen"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://uxlthemes.com/theme/ibsen/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ibsen is a WordPress and WooCommerce theme with customizable color and block "
+"editor support, three page templates, and six product templates with "
+"different layouts to choose from."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://uxlthemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Page Title"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Transparent Header"
+msgstr ""

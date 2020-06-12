@@ -1,0 +1,104 @@
+/*
+** Css form Inquiry form
+*/
+
+.nm-enquiry-plugin {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	background: #d6d6d; 
+}
+#nm-send-enquiry {
+	width: 100%;
+	margin: 0 auto;
+}
+.nm-plugin-box {
+	width: 48%;
+	float: left;
+}
+.clearfix {
+	clear: both;
+}
+#nm-inquiry-tab input {
+	width: 100%;
+	box-sizing: border-box;
+}
+#nm-inquiry-tab .first-text {
+	padding-right: 4%;
+}
+#nm-inquiry-tab label{
+	display: block;
+	cursor: pointer;
+
+}
+#nm-inquiry-tab textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+.nm-progress {
+	width: 100%;
+	position: relative;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.nm-progress img {
+	position: absolute;
+	left: -16px;
+	-webkit-transition: left 1s;
+	transition: left 3s;		
+}
+.nm-progress span {
+	color: red;
+}
+.wooh-action-edit{
+	margin-top:20px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border: 2px solid #2c95d0c7;
+    border-radius: 6px;
+}
+.wooh-action-edit > label{
+	font-weight: bold;
+    color: black;
+    font-size: 17px;
+    margin-left: 4px;
+    font-style: oblique;	
+}
+.wooh-action-edit > textarea{
+	border: 2px solid rgba(176, 204, 197, 0.65);
+    /* background: white; */
+    border-radius: 6px;
+    margin: 0px;
+}
+.wooh-action-edit > input {
+	padding: 3px;
+    background: #2c95d0;
+    color: white;
+    border: 1px solid #2c95d0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ssh-hooks-on {}
+
+
+.display-woohero:before  {
+	line-height: 11px;
+	display:inline-block;
+	background-color: rgba(146, 146, 146, 1);
+	width: 13px;
+    height: 11px;
+	display: inline-block;
+	border-radius: 50px;
+	margin: 0 8px -1px 2px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.59);
+	float: none !important;
+	content: "" !important;
+	clear: both;
+	display: inline-block;
+	/* border: 2px solid #8B8B8B;
+*/}
+.display-woohero:before {
+	background-color: #b7ed00;
+	-webkit-animation: ssh-pulse 1s infinite alternate;
+}
