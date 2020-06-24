@@ -1,8 +1,6 @@
 === New York Business ===
 Contributors: ceylonthemes
 Requires at least: WordPress 4.8.0
-Requires PHP: 5.6
-Tested up to: WordPress 5.3.2
 Version: 1.2.4
 Stable tag: trunk
 License: GPLv2 or later

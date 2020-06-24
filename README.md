@@ -1,2 +1,0 @@
-# farmfresh_wordpressAndReactNative
-Farm Fresh App is an e-commerce marketplace that assists farmers and butchers around Kenya  to sell their produce on this platform. This application will eventually be an aggregation of all the farmers and butcheries to ease the accessibility of quality produce and to create a seamless delivery experience.  The marketplace will add a commission to the vendors of the platform prices so that they may be able to make a profit on the goods sold. 

@@ -3,7 +3,9 @@ Theme Name: New York Business
 Theme URI: https://www.ceylonthemes.com/product/new-york-business-pro/
 Author: Ceylon Themes
 Author URI: https://www.ceylonthemes.com
-Version: 1.2.4
+Version: 1.2.5
+Requires PHP: 5.6
+Tested up to: 5.4
 Description: New York Business is the perfect theme for your business with professionalism. It will enable you to create almost any type of website such a blog, portfolio, any scale business website and WooCommerce store front, Easy digital download site with a beautiful & unique design. The theme is developed using bootstrap framework and render nicely on any device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... The Features such as WooCommerce integration, WooCommerce product sliders and product grids, Header Contact, Social, Home Slider, Header & footer Customization, typography features provided in theme will amaze you. Looking for a Feature rich Business theme? Look no further! See the demo, only theme you will ever need: https://wordpress.org/themes/new-york-business/ For more information about New York Business please go to https://www.ceylonthemes.com/product/new-york-business-pro
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -3288,7 +3290,6 @@ h1,h2,h3,h4,h5,h6,
 }
 .carousel-navigation a:before {
 	font-family: "FontAwesome";
-	color:#fff;
 	font-size:26px;
 	line-height:35px;
 	display: inline-block;
@@ -3548,7 +3549,7 @@ ul.header-social-icon li a i{
 	font-size: 15px;
 	color:#000000;
 	padding-left: 12px;
-	padding-right: 9px;
+	padding-right: 30px;
 }
 
 .my-wishlist {

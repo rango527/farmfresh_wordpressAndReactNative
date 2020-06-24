@@ -1,0 +1,60 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://farmfreshsite.com
+Data file = /home/davron/workspace/farmfreshsite/wordpress/wp-content/uploads/2020/06/fancy-shop-data-1.xml_-1.xml
+Widget file = /home/davron/workspace/farmfreshsite/wordpress/wp-content/uploads/2020/06/fancy-shop-widgets.wie
+Customizer file = /home/davron/workspace/farmfreshsite/wordpress/wp-content/uploads/2020/06/fancy-shop-export.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Product Search - No Title - Widget already exists
+Filter Products by Price - No Title - Widget already exists
+Product Categories - No Title - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Filter Products by Attribute - Filter by - Widget already exists
+Active Product Filters - Active filters - Widget already exists
+Cart - Cart - Widget already exists
+Search - Search Products - Widget already exists
+Products - Products - Widget already exists
+
+Woocommerce Sidebar : 
+
+Filter Products by Price - No Title - Imported
+Product Search - No Title - Imported
+Product Categories - No Title - Imported
+
+Footer 1 : 
+
+Text - About Us - Imported
+
+Footer 2 : 
+
+Recent Posts - No Title - Imported
+
+Footer 3 : 
+
+Product Categories - No Title - Imported
+
+Footer 4 : 
+
+Search - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

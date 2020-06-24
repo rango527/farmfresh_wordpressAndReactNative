@@ -89,7 +89,11 @@ function new_york_business_register_required_plugins() {
 			'slug'      => 'yith-woocommerce-compare',
 			'required'  => false,
 		),	
-			
+		array(
+			'name'      => 'One Click Demo Import',
+			'slug'      => 'one-click-demo-import',
+			'required'  => false,
+		),			
 		array(
 			'name'      => 'Contact Form 7',
 			'slug'      => 'contact-form-7',

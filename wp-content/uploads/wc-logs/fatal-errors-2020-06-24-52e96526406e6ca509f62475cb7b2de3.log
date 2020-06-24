@@ -1,0 +1,667 @@
+2020-06-24T00:48:05+00:00 CRITICAL Uncaught Error: Call to undefined function OTP\Handler\Forms\wpmu_validate_user_signup() in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php:98
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php(50): OTP\Handler\Forms\MultiSiteFormRegistration->_sanitizeAndRouteData(Array)
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): OTP\Handler\Forms\MultiSiteFormRegistration->handleForm('')
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-settings.php(540): do_action('init')
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-config.php(90): require_once('/home/davron in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php on line 98
+
+2020-06-24T09:08:40+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T10:21:18+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/quantities-and-units-for-woocommerce/includes/class-wcqu-post-type.php on line 125
+
+2020-06-24T11:58:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T13:12:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T13:18:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T13:23:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T13:58:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:03:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:04:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:10:11+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:11:58+00:00 CRITICAL Uncaught Error: Call to undefined function OTP\Handler\Forms\wpmu_validate_user_signup() in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php:98
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php(50): OTP\Handler\Forms\MultiSiteFormRegistration->_sanitizeAndRouteData(Array)
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): OTP\Handler\Forms\MultiSiteFormRegistration->handleForm('')
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-settings.php(540): do_action('init')
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-config.php(90): require_once('/home/davron in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php on line 98
+
+2020-06-24T14:12:46+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:20:46+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:21:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:25:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:29:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:35:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:37:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:38:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:41:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:41:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:43:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:46:01+00:00 CRITICAL Uncaught Error: Call to undefined function OTP\Handler\Forms\wpmu_validate_user_signup() in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php:98
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php(50): OTP\Handler\Forms\MultiSiteFormRegistration->_sanitizeAndRouteData(Array)
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): OTP\Handler\Forms\MultiSiteFormRegistration->handleForm('')
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-settings.php(540): do_action('init')
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-config.php(90): require_once('/home/davron in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/miniorange-otp-verification/handler/forms/MultiSiteFormRegistration.php on line 98
+
+2020-06-24T14:46:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:48:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:50:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:52:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:53:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-24T14:56:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:56:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:56:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:57:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:57:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:57:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T14:57:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:15:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+
+2020-06-24T15:16:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:16:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:16:43+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:16:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+
+2020-06-24T15:16:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:17:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:17:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:17:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:17:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:17:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:35:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:36:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:38:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:41:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:44:56+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:11+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+
+2020-06-24T15:45:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+
+2020-06-24T15:45:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:45:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:46:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:46:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-24T15:46:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+
+2020-06-24T15:46:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:804
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 804
+

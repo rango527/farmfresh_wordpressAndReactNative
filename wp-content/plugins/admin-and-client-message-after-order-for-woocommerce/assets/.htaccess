@@ -1,4 +1,0 @@
-<files "*.*">
-Order Deny,Allow
-Deny from all
-</files>

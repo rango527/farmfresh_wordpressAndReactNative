@@ -1,0 +1,117 @@
+2020-06-23T15:22:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php:706
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php(55): woompesa_request_payment()
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): {closure}(Object(WP))
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
+#5 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/functions.php(1274): WP->main('')
+#6 /home/davron/workspace/farmfreshsite/wordpress/wp-blog-header.php(16): wp()
+#7 /home/davron/workspace/farmfreshsite/wordpress/index.p in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 706
+
+2020-06-23T15:45:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:47:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:52:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:53:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:56:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:58:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T15:59:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T16:00:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T16:01:37+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(35): Xoo_Ml_Geolocation::geolocate_via_api('127.0.0.1')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 /hom in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T16:04:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(22): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(15): Xoo_Ml_Otp_Handler->__construct()
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-otp-handler.php(277): Xoo_Ml_Otp_Handler::get_instance()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-x in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T16:33:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php:148
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(38): Xoo_Ml_Geolocation::geolocate_via_api('104.151.51.115')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php(157): Xoo_Ml_Geolocation::get_data()
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(34): require_once('/home/davron/wo...')
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(21): XOO_ML->includes()
+#4 /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml.php(14): XOO_ML->__construct()
+#5 in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/mobile-login-woocommerce/includes/class-xoo-ml-geolocation.php on line 148
+
+2020-06-23T17:53:33+00:00 CRITICAL Uncaught Error: Class 'WeDevs\Dokan\Admin\DokanException' not found in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/dokan-lite/includes/Admin/Settings.php:71
+Stack trace:
+#0 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(287): WeDevs\Dokan\Admin\Settings->save_settings_value('')
+#1 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/davron/workspace/farmfreshsite/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/davron/workspace/farmfreshsite/wordpress/wp-admin/admin-ajax.php(175): do_action('wp_ajax_dokan_s...')
+#4 {main}
+  thrown in /home/davron/workspace/farmfreshsite/wordpress/wp-content/plugins/dokan-lite/includes/Admin/Settings.php on line 71
+

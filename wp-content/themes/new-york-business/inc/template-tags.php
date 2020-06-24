@@ -393,7 +393,7 @@ function new_york_business_wishlist_count( ) {
 		return;
 	}
 ?>
-	<a class="wishlist-contents"  href="<?php echo esc_url(home_url( '/wish-list')); ?>" title="<?php esc_attr_e( 'View your whishlist','new-york-business' ); ?>">
+	<a class="wishlist-contents"  href="<?php echo esc_url(home_url( '/wishlist')); ?>" title="<?php esc_attr_e( 'View your whishlist','new-york-business' ); ?>">
 	<span class="wishlist-contents-count fa fa-heart">&nbsp;(<?php echo absint($wishlist_count); ?>)&nbsp;</span></a>
 	<?php
 }

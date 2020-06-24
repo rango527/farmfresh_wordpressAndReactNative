@@ -2,8 +2,8 @@
 Contributors: omardabbas
 Tags: woocommerce, woo commerce, product, quantity, dropdown, min, max, default, step
 Requires at least: 4.4
-Tested up to: 5.4
-Stable tag: 2.8
+Tested up to: 5.4.2
+Stable tag: 2.9
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,8 @@ more to what is mentioned above, you can also define decimal values for products
 * Enable **decimal quantities** in WooCommerce.
 * Replace standard WooCommerce quantity number input with **dropdown**.
 * Set **exact (i.e. fixed) allowed or disallowed quantities** (as comma separated list).
+* Show total price for the quantity in 5 locations: Before / instead / after the price, before / after add to cart
+* Define a unit to show next to price (i.e. $10 per KG)
 
 = More Features =
 
@@ -78,6 +80,11 @@ Then activate the plugin through the "Plugins" menu in WordPress.
 Finally, you can start using it directly at "WooCommerce > Settings > Product Quantity".
 
 == Changelog ==
+
+= 2.9 - 17/06/2020 =
+* Allowed defining decimal values for Default Quantity values
+* Enhanced notification messages on checkout UI
+* New Feature: Allowed defining a unit next to main price (Show $10 per KG instead of regular $10)
 
 = 2.8 - 04/06/2020 =
 * Display Price by Quantity: %unit% variable can now be set on global level (all store), category, and product-based

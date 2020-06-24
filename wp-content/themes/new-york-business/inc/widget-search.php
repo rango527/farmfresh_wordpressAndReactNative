@@ -59,7 +59,7 @@ if($title) {
 	</div>
   </div>
   <label class="screen-reader-text" for="woocommerce-product-search-field"><?php esc_html_e('Search for','new-york-business'); ?></label>
-  <input type="search" name="s" id="text-search" value="" placeholder="<?php esc_html_e('Search Products...', 'new-york-business'); ?>">
+  <input type="search" name="s" id="text-search" value="" placeholder="<?php esc_attr_e('Search Products...', 'new-york-business'); ?>">
   <button id="btn-search-category" type="submit"><span class="fa icon fa-search"></span></button>
   <input type="hidden" name="post_type" value="product">
 </form>

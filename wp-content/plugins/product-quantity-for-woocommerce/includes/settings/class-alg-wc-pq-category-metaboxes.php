@@ -34,7 +34,9 @@ class Alg_WC_PQ_Category_Metaboxes {
 			'exact_qty_disallowed'    => ( 'yes' === get_option( 'alg_wc_pq_exact_qty_disallowed_section_enabled', 'no' ) &&
 				'yes' === get_option( 'alg_wc_pq_exact_qty_disallowed_per_cat_item_quantity_per_product', 'no' ) ),
 			'category_unit'    => ( 'yes' === get_option( 'alg_wc_pq_qty_price_by_qty_enabled', 'no' ) &&
-				'yes' === get_option( 'alg_wc_pq_qty_price_by_cat_qty_unit_input_enabled', 'no' ) )
+				'yes' === get_option( 'alg_wc_pq_qty_price_by_cat_qty_unit_input_enabled', 'no' ) ),
+			'category_price_unit'    => ( 'yes' === get_option( 'alg_wc_pq_qty_price_unit_enabled', 'no' ) &&
+				'yes' === get_option( 'alg_wc_pq_qty_price_unit_category_enabled', 'no' ) )
 		);
 		if (
 			$this->is_section_enabled['min'] ||
@@ -43,7 +45,8 @@ class Alg_WC_PQ_Category_Metaboxes {
 			$this->is_section_enabled['default'] ||
 			$this->is_section_enabled['exact_qty_allowed'] ||
 			$this->is_section_enabled['exact_qty_disallowed'] ||
-			$this->is_section_enabled['category_unit']
+			$this->is_section_enabled['category_unit'] ||
+			$this->is_section_enabled['category_price_unit']
 		) {
 			/* add_action( 'product_cat_add_form_fields', array( $this, 'pq_taxonomy_add_custom_meta_field' ), 10, 2 ); */
 			add_action( 'product_cat_edit_form_fields', array( $this, 'pq_taxonomy_edit_custom_meta_field' ), 10, 2 );
@@ -215,6 +218,16 @@ class Alg_WC_PQ_Category_Metaboxes {
 			<td>
 				<input type="text"  name="term_meta[alg_wc_pq_category_unit_plural]" id="term_meta[alg_wc_pq_category_unit_plural]" value="<?php echo esc_attr( $term_meta['alg_wc_pq_category_unit_plural'] ) ? esc_attr( $term_meta['alg_wc_pq_category_unit_plural'] ) : ''; ?>">
 				<p class="description"><?php _e( 'Specify a plural string for this category, this is controlled by Product Quantity plugin','product-quantity-for-woocommerce' ); ?></p>
+			</td>
+		</tr>
+		<?php } ?>
+		
+		<?php if ( $this->is_section_enabled['category_price_unit'] ) { ?>
+		<tr class="form-field">
+		<th scope="row" valign="top"><label for="term_meta[alg_wc_pq_category_price_unit]"><?php _e( 'Price Unit', 'product-quantity-for-woocommerce' ); ?> <?php //echo wc_help_tip( __( 'Set 0 to use global settings.', 'product-quantity-for-woocommerce' ), true ); ?></label></th>
+			<td>
+				<input type="text"  name="term_meta[alg_wc_pq_category_price_unit]" id="term_meta[alg_wc_pq_category_price_unit]" value="<?php echo esc_attr( $term_meta['alg_wc_pq_category_price_unit'] ) ? esc_attr( $term_meta['alg_wc_pq_category_price_unit'] ) : ''; ?>">
+				<p class="description"><?php _e( 'Specify a string for this category, this is controlled by Product Quantity plugin','product-quantity-for-woocommerce' ); ?></p>
 			</td>
 		</tr>
 		<?php } ?>

@@ -3,7 +3,7 @@
 Plugin Name: Product Quantity for WooCommerce
 Plugin URI: https://wpfactory.com/item/product-quantity-for-woocommerce/
 Description: Manage product quantity in WooCommerce, beautifully. Define a minimum / maximum / step quantity and more on WooCommerce products.
-Version: 2.8
+Version: 2.9
 Author: WPWhale
 Author URI: http://www.wpwhale.com
 Text Domain: product-quantity-for-woocommerce
@@ -142,6 +142,7 @@ final class Alg_WC_PQ {
 		$this->settings['fixed']        = require_once( 'includes/settings/class-alg-wc-pq-settings-fixed.php' );
 		$this->settings['dropdown']     = require_once( 'includes/settings/class-alg-wc-pq-settings-dropdown.php' );
 		$this->settings['price_by_qty'] = require_once( 'includes/settings/class-alg-wc-pq-settings-price-by-qty.php' );
+		$this->settings['price_unit'] 	= require_once( 'includes/settings/class-alg-wc-pq-settings-price-unit.php' );
 		$this->settings['qty_info']     = require_once( 'includes/settings/class-alg-wc-pq-settings-qty-info.php' );
 		$this->settings['styling']      = require_once( 'includes/settings/class-alg-wc-pq-settings-styling.php' );
 		$this->settings['admin']        = require_once( 'includes/settings/class-alg-wc-pq-settings-admin.php' );
