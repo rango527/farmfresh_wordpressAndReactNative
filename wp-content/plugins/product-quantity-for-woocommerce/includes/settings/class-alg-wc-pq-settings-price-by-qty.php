@@ -21,7 +21,7 @@ class Alg_WC_PQ_Settings_Price_By_Qty extends Alg_WC_PQ_Settings_Section {
 	 */
 	function __construct() {
 		$this->id   = 'price_by_qty';
-		$this->desc = __( 'Price Display by Quantity', 'product-quantity-for-woocommerce' );
+		$this->desc = __( 'Total Price by Quantity', 'product-quantity-for-woocommerce' );
 		parent::__construct();
 	}
 
@@ -34,7 +34,7 @@ class Alg_WC_PQ_Settings_Price_By_Qty extends Alg_WC_PQ_Settings_Section {
 	function get_settings() {
 		return array(
 			array(
-				'title'    => __( 'Price Display by Quantity Options', 'product-quantity-for-woocommerce' ),
+				'title'    => __( 'Total Price by Quantity Options', 'product-quantity-for-woocommerce' ),
 				'desc'     => __( 'With this section you can display product price for different quantities in real time (i.e. price is automatically updated when customer changes product\'s quantity).', 'product-quantity-for-woocommerce' ) . ' ' .
 					__( 'Please note that this section works for both <strong>simple type products</strong> and <strong>variable products</strong> as well, but you have to enable it from the tick below', 'product-quantity-for-woocommerce' ) . '<br>' .
 					sprintf( __( 'Please note that this section is not designed to change product prices - if you need to change product\'s price depending on quantity in cart, we suggest using our %s plugin.', 'product-quantity-for-woocommerce' ),
@@ -43,14 +43,14 @@ class Alg_WC_PQ_Settings_Price_By_Qty extends Alg_WC_PQ_Settings_Section {
 				'id'       => 'alg_wc_pq_qty_price_by_qty_options',
 			),
 			array(
-				'title'    => __( 'Price display by quantity', 'product-quantity-for-woocommerce' ),
+				'title'    => __( 'Total Price by Quantity', 'product-quantity-for-woocommerce' ),
 				'desc'     => '<strong>' . __( 'Enable section', 'product-quantity-for-woocommerce' ) . '</strong>',
 				'id'       => 'alg_wc_pq_qty_price_by_qty_enabled',
 				'default'  => 'no',
 				'type'     => 'checkbox',
 			),
 			array(
-				'title'    => __( 'Price display by quantity for variable product', 'product-quantity-for-woocommerce' ),
+				'title'    => __( 'Total Price by Quantity for variable product', 'product-quantity-for-woocommerce' ),
 				'desc'     => __( 'Enable', 'product-quantity-for-woocommerce' ) ,
 				'id'       => 'alg_wc_pq_qty_price_by_qty_enabled_variable',
 				'default'  => 'no',

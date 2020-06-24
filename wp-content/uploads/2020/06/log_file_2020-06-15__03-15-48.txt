@@ -1,0 +1,60 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://www.gulfthemes.com/shoppingcart
+Data file = /home/gulfthem/public_html/wp-content/uploads/sites/10/2020/06/fancy-shop-data.xml
+Widget file = /home/gulfthem/public_html/wp-content/uploads/sites/10/2020/06/fancy-shop-widgets.wie
+Customizer file = /home/gulfthem/public_html/wp-content/uploads/sites/10/2020/06/fancy-shop-settings.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Product Search - No Title - Imported
+Filter Products by Price - No Title - Imported
+Product Categories - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by - Imported
+Active Product Filters - Active filters - Imported
+Cart - Cart - Imported
+Search - Search Products - Imported
+Products - Products - Imported
+
+Woocommerce Sidebar : 
+
+Filter Products by Price - No Title - Imported
+Product Search - No Title - Imported
+Product Categories - No Title - Imported
+
+Footer 1 : 
+
+Text - About Us - Imported
+
+Footer 2 : 
+
+Recent Posts - No Title - Imported
+
+Footer 3 : 
+
+Product Categories - No Title - Imported
+
+Footer 4 : 
+
+Search - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

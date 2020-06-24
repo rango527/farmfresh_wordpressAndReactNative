@@ -1,0 +1,9 @@
+2020-06-24T01:45:20+00:00 DEBUG Error creating customer record with Stripe: Stripe Source Missing
+2020-06-24T01:45:20+00:00 DEBUG {"total_amount":"570.38","stripe_source":"","stripe_token":[],"currency":"KES","transfer_group":"Split Pay for Order #366","description":"Payment for Order #366","distribution_list":[]}
+2020-06-24T01:45:20+00:00 DEBUG Stripe Split Pay Remaining Pay Error: No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2020-06-24T03:50:30+00:00 DEBUG Error creating customer record with Stripe: Stripe Source Missing
+2020-06-24T03:50:30+00:00 DEBUG {"total_amount":"587.88","stripe_source":"","stripe_token":[],"currency":"KES","transfer_group":"Split Pay for Order #377","description":"Payment for Order #377","distribution_list":[]}
+2020-06-24T03:50:30+00:00 DEBUG Stripe Split Pay Remaining Pay Error: No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2020-06-24T15:15:29+00:00 DEBUG Error creating customer record with Stripe: Stripe Source Missing
+2020-06-24T15:15:29+00:00 DEBUG {"total_amount":"39.88","stripe_source":"","stripe_token":[],"currency":"KES","transfer_group":"Split Pay for Order #455","description":"Payment for Order #455","distribution_list":[]}
+2020-06-24T15:15:29+00:00 DEBUG Stripe Split Pay Remaining Pay Error: No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.

@@ -1,0 +1,42 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://farmfreshsite.com
+Data file = /home/davron/workspace/farmfreshsite/wordpress/wp-content/uploads/2020/06/post-pages-2.xml
+Widget file = /home/davron/workspace/farmfreshsite/wordpress/wp-content/uploads/2020/06/widgets-1.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Home Page Header Widgets : 
+
+Text - No Title - Widget already exists
+
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Product Search - No Title - Widget already exists
+Filter Products by Price - No Title - Widget already exists
+Product Categories - No Title - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Filter Products by Attribute - Filter by - Widget already exists
+Active Product Filters - Active filters - Widget already exists
+Cart - Cart - Widget already exists
+Search - Search Products - Widget already exists
+Products - Products - Widget already exists
+
+

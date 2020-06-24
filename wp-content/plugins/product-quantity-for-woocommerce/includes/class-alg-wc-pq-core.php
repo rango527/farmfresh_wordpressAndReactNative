@@ -20,6 +20,14 @@ class Alg_WC_PQ_Core {
 	 * @since 1.0.0
 	 */
 	public $excluded_pids = array();
+	
+	/**
+	 * is enabled.
+	 *
+	 * @var   string
+	 * @since 1.0.0
+	 */
+	public $enabled_priceunit_category = 'no';
 
 	/**
 	 * Constructor.
@@ -145,9 +153,57 @@ class Alg_WC_PQ_Core {
 			}
 			
 			add_filter( 'woocommerce_paypal_line_item', array( $this, 'change_paypal_line_item_quantity_type' ), 100, 5 );
+			
+			if ( 'yes' === get_option( 'alg_wc_pq_qty_price_unit_enabled', 'no' ) ) {
+				$this->enabled_priceunit_category = get_option( 'alg_wc_pq_qty_price_unit_category_enabled', 'no' );
+				add_filter( 'woocommerce_get_price_html', array( $this, 'pq_change_product_price_unit'), 99, 2 );
+				add_filter( 'woocommerce_cart_item_price', array( $this, 'pq_change_cart_product_price_unit'), 99, 3 );
+			}
 		}
 	}
 
+	function pq_change_product_price_unit( $price, $product ) {
+		$unit = get_option( 'alg_wc_pq_qty_price_unit', '' );
+		if ( !empty($product) && $product->id > 0 && !empty($price) && !empty($unit) && ! is_admin() ) {
+			$product_id = $product->id;
+			if( $this->enabled_priceunit_category=='yes' ) {
+				$product_unit = $this->get_term_price_unit( $product_id );
+				$unit = (!empty($product_unit) ? $product_unit : $unit );
+			}
+			$price .= ' '.$unit;
+		}
+		return $price;
+	}
+	
+	function pq_change_cart_product_price_unit( $price, $cart_item, $cart_item_key ) {
+		$unit = get_option( 'alg_wc_pq_qty_price_unit', '' );
+		if ( isset( $cart_item['product_id'] ) && !empty( $cart_item['product_id'] ) && !empty($price) && ! is_admin() ) {
+			$product_id = $cart_item['product_id'];
+			if( $this->enabled_priceunit_category=='yes' ) {
+				$product_unit = $this->get_term_price_unit( $product_id );
+				$unit = (!empty($product_unit) ? $product_unit : $unit );
+			}
+			$price .= ' '.$unit;
+		}
+		return $price;
+	}
+	
+	function get_term_price_unit ( $product_id  ) {
+		$terms = get_the_terms( $product_id, 'product_cat' );
+		if( !empty($terms) ) {
+			foreach ($terms as $term) {
+				$t_id = $term->term_id;
+				$term_meta = get_option( "taxonomy_product_cat_$t_id" );
+				if (!empty($term_meta) && is_array($term_meta))
+				{
+					if(isset( $term_meta['alg_wc_pq_category_price_unit'] )) {
+						return $term_meta['alg_wc_pq_category_price_unit'];
+					}
+				}
+			}
+		}
+		return '';
+	}
 	
 	/**
 	 * disable_product_id_by_url_option.
@@ -1569,14 +1625,23 @@ class Alg_WC_PQ_Core {
 								{
 									$message_template = get_option( $alg_wc_pq_allowed_or_disallowed . '_cat_message',
 										__( 'Allowed quantity for category ' . $trm->name . ' is ' . implode(',',$cat_quantity) . '. Your current quantity is ' . $count , 'product-quantity-for-woocommerce' ) );
-									$_notice = str_replace(array('%category_title%','%allowed_quantity%','%quantity%'),array($trm->name,implode(',',$cat_quantity),$count),$message_template);
-									wc_add_notice( $_notice, 'error' );
-									return false;
+									$_notice = str_replace(array('%category_title%','%allowed_quantity%','%quantity%'),array($trm->name,implode(', ',$cat_quantity),$count),$message_template);
+									
+									if ( $_return ) {
+										return false;
+									} else {
+										if ( $_is_cart ) {
+										wc_print_notice( $_notice, get_option( 'alg_wc_pq_cart_notice_type', 'notice' ) );
+										} else {
+											wc_add_notice( $_notice, 'error' );
+										}
+									}
 								}
 							}
 						}
 					}
 				}
+				
 			}
 		}
 
